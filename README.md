@@ -1,9 +1,9 @@
-## UTM Utilities
+# UTM Utilities
 Universal Transverse Mercator (UTM) Utilities
 
-### Components
+## Components
 * Coordinate Converter
 * Google Maps Grid Generator
 
-### Authors and Contributors
+## Authors and Contributors
 Sérgio Santos (@s3rgiosan)
