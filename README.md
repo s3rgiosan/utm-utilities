@@ -1,5 +1,5 @@
 # UTM Utilities
-Universal Transverse Mercator (UTM) Utilities
+Universal Transverse Mercator (UTM) utilities
 
 ## Components
 * Coordinate Converter
