@@ -1,7 +1,5 @@
 # UTM Utilities
-Universal Transverse Mercator (UTM) utilities
-
-## Components
+A set of Universal Transverse Mercator (UTM) JavaScript utilities:  
 * Coordinate Converter
 * Google Maps Grid Generator
 
