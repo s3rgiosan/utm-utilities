@@ -3,8 +3,8 @@
  *
  * @version 1.0.0
  * @author  Sérgio Santos
- * @email   hello@sergiosantos.me
- * @url     http://www.sergiosantos.me
+ * @email   me@s3rgiosan.com
+ * @url     http://s3rgiosan.com
  */
 
 var UTMGrid = {
