@@ -5,7 +5,7 @@
  *  http://www.ibm.com/developerworks/java/library/j-coordconvert/index.html
  *  http://en.wikipedia.org/wiki/Universal_Transverse_Mercator_coordinate_system
  *
- * @version 1.0.0
+ * @version 1.1.0
  * @author  Sérgio Santos
  * @email   me@s3rgiosan.com
  * @url     http://s3rgiosan.com
