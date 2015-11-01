@@ -320,8 +320,9 @@ var UTMConverter = {
      * Convert latitude and longitude to UTM
      *
      * @params  {Object} latlon: Latitude and longitude coordinates in decimal
+     * @params  {Integer} zone: The UTM zone (optional)
      */
-    latLonToUTM: function(latlon) {
+    latLonToUTM: function(latlon, zone) {
 
       var lat = latlon.lat;
       var lon = latlon.lon;
@@ -335,8 +336,10 @@ var UTMConverter = {
         // Convert to radians
         lat = UTMConverter.utils.degreeToRadian(lat);
 
-        // Calculate UTM zone number
-        var zone = UTMConverter.utils.calcUTMZone(lon);
+        // Calculate UTM zone number if one is not provided
+        if (zone == undefined) {
+          var zone = UTMConverter.utils.calcUTMZone(lon);
+        }
 
         // Calculate UTM zone central meridian
         var zoneCM = UTMConverter.utils.calcCentralMeridian(zone);
