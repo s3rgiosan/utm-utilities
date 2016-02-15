@@ -74,7 +74,7 @@ var UTMConverter = {
         console.log("Invalid range: %d", lat);
         return false;
       } 
-      if(isNaN(lon) || lon < -180.0 || lon >= 180.0) {
+      if(isNaN(lon) || lon < -180.0 || lon > 180.0) {
         console.log("Invalid range: %d", lon);
         return false;
       }
